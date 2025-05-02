@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare", "ClipShare\ClipShare.csproj", "{8D64B5DF-75C3-4426-B95D-8A03020F084F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.Core", "ClipShare.Core\ClipShare.Core.csproj", "{55EAB24F-13DC-49F8-AC03-3894CB195B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.DataAccess", "ClipShare.DataAccess\ClipShare.DataAccess.csproj", "{A6B010C3-77CB-49E4-994A-8A560574B977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8D64B5DF-75C3-4426-B95D-8A03020F084F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D64B5DF-75C3-4426-B95D-8A03020F084F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D64B5DF-75C3-4426-B95D-8A03020F084F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EAB24F-13DC-49F8-AC03-3894CB195B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EAB24F-13DC-49F8-AC03-3894CB195B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EAB24F-13DC-49F8-AC03-3894CB195B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EAB24F-13DC-49F8-AC03-3894CB195B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B010C3-77CB-49E4-994A-8A560574B977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B010C3-77CB-49E4-994A-8A560574B977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B010C3-77CB-49E4-994A-8A560574B977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B010C3-77CB-49E4-994A-8A560574B977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
